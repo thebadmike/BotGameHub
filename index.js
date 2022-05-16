@@ -194,4 +194,4 @@ function oraAttuale() {
 }
 setInterval(oraAttuale, 1000 * 60)
 
-client.login("ODI2ODU0NTkwNDU5ODA1NzM3.Gugk1a.-GBnNg0vFANgS1a4LoGry6jF-ypkTGbz2XON0s")
+client.login(process.env.token)
